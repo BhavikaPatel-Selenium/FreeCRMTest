@@ -39,7 +39,7 @@ public class LoginPageTest extends TestBase {
 	
 	@AfterTest
 	public void teardown() {
-		driver.close();
+		driver.quit();
 	}
 	
 	

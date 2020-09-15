@@ -51,7 +51,7 @@ public class ContactsPageTest extends TestBase {
 			
 	@AfterTest
 	public void teardown() {
-		driver.close();
+		driver.quit();
 	}
 	
 	
